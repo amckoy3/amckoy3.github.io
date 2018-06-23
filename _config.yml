@@ -1,6 +1,6 @@
 # main text of home
-name: John Doe
-bio: A Man who travels the world eating noodles
+name: Osi Otugo
+bio: User Experience Researcher
 
 # twitter summary info
 description: A blog about technology and stuff related
@@ -14,9 +14,9 @@ picture: assets/images/profile.jpg
 # and specify source (external or local).
 resume: true
 resume-external: true
-resume-url: https://google.com/?q=my+resume
+resume-url: https://cl.ly/1g2F3u1s122w
 
-url: https://koppl.in/indigo
+url: https://ositanachi.github.io
 # your url: http://USERNAME.github.io
 
 permalink: /:title/
@@ -34,24 +34,24 @@ disqus:
   categories: [blog, project] # only show disqus for posts that have these categories
 
 # if you don't have any of social below, comment the line
-facebook: myfacebook
-twitter: mytwitter
+#facebook: myfacebook
+twitter: ositanachi
 # google: mygoogle
-# instagram: myinstagram
+instagram: ositanachi
 # pinterest: mypinterest
-# linkedin: mylinkedin
+linkedin: ositanachi
 # youtube: myyoutube
 # spotify: myspotify
-github: mygithub
+github: ositanachi
 # gitlab: mygitlab
 # lastfm: mylastfm
 # stackoverflow: 7044681/mystackoverflow
 # quora: userquora
 # reddit: username
-medium: medium
+#medium: medium
 # vimeo: myvimeo
 # lanyrd: mylanyrd
-email: myemail@gmail.com
+#email: myemail@gmail.com
 
 authors:
     johndoe:
