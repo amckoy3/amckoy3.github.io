@@ -23,7 +23,7 @@ layout: page
 	<li>Self-love (and <a href="https://www.youtube.com/watch?v=ZsABTmT1_M0">treat yourself</a>).</li>
 	<li><a href="https://en.wikipedia.org/wiki/Golden_Rule#Responses_to_criticisms">Golden Rule</a>.</li>
 	<li>Get comfortable being uncomfortable.</li>
-	<li>The importance of <a href="https://www.ted.com/talks/celeste_headlee_10_ways_to_have_a_better_conversation">communicating well.</a></li>
+	<li><a href="https://www.ted.com/talks/celeste_headlee_10_ways_to_have_a_better_conversation">Communicating well</a> is essential.</li>
 	<li>Rejoice in success as well as failure.</li>
 </ul>
 
