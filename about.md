@@ -33,6 +33,6 @@ layout: page
 	<li><a href="http://www.gotruckr.com/">Truckr</a></li>
 </ul>
 
-<h2> Resume</a></h2>
+<h2>Resume</h2>
 <ul>
-	<li><a href="https://www.ositanachi.com/assets/docs/osi_otugo_resume.pdf">PDF</a>, 45kb</a>
+	<li><a href="https://www.ositanachi.com/assets/docs/osi_otugo_resume.pdf">PDF</a>, 45kb
