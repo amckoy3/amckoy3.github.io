@@ -20,11 +20,11 @@ layout: page
 
 <h2>Things I believe</h2>
 <ul class="ido">
-	<li>Self-love (and <a href="https://www.youtube.com/watch?v=ZsABTmT1_M0">treat yourself</a>).</li>
+	<li>Cultivate self love and compassion (<a href="https://www.youtube.com/watch?v=ZsABTmT1_M0">treat yourself</a>).</li>
 	<li><a href="https://en.wikipedia.org/wiki/Golden_Rule#Responses_to_criticisms">Golden Rule</a>.</li>
 	<li>Get comfortable being uncomfortable.</li>
 	<li><a href="https://www.ted.com/talks/celeste_headlee_10_ways_to_have_a_better_conversation">Communicating well</a> is essential.</li>
-	<li>Rejoice in success as well as failure.</li>
+	<li>Failure is not the end.</li>
 </ul>
 
 <h2>Projects</h2>
@@ -33,4 +33,6 @@ layout: page
 	<li><a href="http://www.gotruckr.com/">Truckr</a></li>
 </ul>
 
-<h2> <a href="https://www.ositanachi.com/assets/docs/osi_otugo_resume.pdf">Résumé</a></h2>
+<h2> Résumé</a></h2>
+<ul>
+	<li><a href="https://www.ositanachi.com/assets/docs/osi_otugo_resume.pdf">PDF</a>, 45kb</a>
