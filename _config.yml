@@ -13,8 +13,8 @@ picture: assets/images/profile.jpg
 # If you want to include your resume, set to true
 # and specify source (external or local).
 resume: true
-resume-external: true
-resume-url: https://cl.ly/1g2F3u1s122w
+resume-external: false
+resume-url: assets/docs/osi_otugo_resume.pdf
 
 url: http://ositanachi.github.io
 # your url: http://USERNAME.github.io
@@ -55,6 +55,12 @@ github: ositanachi
 #email: myemail@gmail.com
 
 authors:
+    osiotugo:
+        name: Osi Otugo
+        bio: Batman (with prep) if he had a full time job
+        external-image: false
+        picture: assets/images/profile.jpg
+        twitter: ositanachi
     johndoe:
         name: John Doe
         bio: A Man who travels the world eating noodles

@@ -3,6 +3,7 @@ title: About
 layout: page
 ---
 ![Profile Image]({{ site.url }}/{{ site.picture }})
+<center>{% include social-links.html %}</center>
 
 <h2>Kedụ (hello)</h2>
 
@@ -35,4 +36,4 @@ layout: page
 
 <h2>Resume</h2>
 <ul>
-	<li><a href="https://www.ositanachi.com/assets/docs/osi_otugo_resume.pdf">PDF</a>, 45kb
+	<li><a href="assets/docs/osi_otugo_resume.pdf">PDF</a>, 45kb
