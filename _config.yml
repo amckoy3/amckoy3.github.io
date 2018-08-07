@@ -55,24 +55,12 @@ github: ositanachi
 #email: myemail@gmail.com
 
 authors:
-    osiotugo:
+    ositanachi:
         name: Osi Otugo
         bio: Batman (with prep) if he had a full time job
         external-image: false
         picture: assets/images/profile.jpg
         twitter: ositanachi
-    johndoe:
-        name: John Doe
-        bio: A Man who travels the world eating noodles
-        external-image: false
-        picture: assets/images/profile.jpg
-        twitter: johndoe
-    jamesfoster:
-        name: James Foster
-        bio: A Man who develops software with coffee
-        external-image: false
-        picture: assets/images/james.jpg
-        twitter: jamesfoster
 
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
@@ -83,8 +71,8 @@ width: normal
 # paginate: 5
 # paginate_path: "blog/:num/"
 
-# if you don't need projects, comment the *projects* configs below
-projects: true
+# if you don't need portfolio, comment the *portfolio* configs below
+portfolio: true
 
 # if you don't need "about" or "blog", comment them out below
 about: true
