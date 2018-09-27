@@ -43,6 +43,8 @@ Or you know...just design a phone with a full-screen display and an in-display f
 
 #### See also
 
+*A case for this concept device would be otherworldly and dropping it would result in tears.*
+
 [YotaPhone](https://yotaphone.com/gb-en/) - It did not directly inspire my idea but, it is the "world's first dual-screen always-on smartphone."
 
 [Xiaomi Mi Mix](https://www.mi.com/en/mix/#section4) - The phone whose display was the envy of every other smartphone. I urge you to read about its innovative design.
