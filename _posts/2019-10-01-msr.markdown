@@ -6,58 +6,67 @@ tag:
 - machine learning
 - descriptive analysis
 - search
+- diary study
 projects: true
 author: Ashley McKoy
 description: "A peek inside the case study I am working on for Peek"
 permalink: womens-health
 ---
 
-Note: Some information has been removed for confindentiality reasons.
+Note: Some information has been removed for confindentiality reasons. This research was conducted alongside a Senior Researcher at MSR.
 
 ## Background
 
-Currently, the employee experience at AT&T is owned by multiple stakeholders within the company, each working on their own projects, having unique perspectives on the current state of the employee experience. This
-resulted in duplication of work, launching of problems that aren't really solving employee problems, and
-additonal cost to the business.
+The internet is ubiquitously used by people to seek information throughout the course of their daily activities, primarily through queries entered on search engines. The internet also provides both a means for people to document their lives and a support system through various platforms that include Twitter, online forums, and other social media sites, allowing people to feel connected to the world. We found that women in particular, are more likely to use search engines over social media posts to find answers about issues that bear social stigma such as certain medical conditions. This makes search data a particularly rich resource for gaining information about what people, and women in particular, think about during the course of their daily lives.
 
 
 ## Goal
 
-I was sent on an exploratory research journey to understand what are the highs and lows of the management
-and non-management employee's experience. The goal was to holistically understand in what areas of the journey is the company doing great and where can they improve.
+We wanted to understand how the information needs of women experiencing certain health conditions change over time by analyzing granular behavioral data. Using such data allows us to discover the information needs of women that may not be shared with their doctors or friends. We attempt to learn whether the medications, conditions and worries that  women have over the course of a treatment are reflected in their online searches.  In particular, we aim to discover whether women who undergo medical treatment B are  different in terms of their behavior and information needs than those who undergo medical treatment A -- are they more stressed, do they worry more, shop less, etc.? 
+
+Note: This research project was approved by the IRB. Medical treatment A (controlled), Medical treatment B (experiemental) are used to substitute the actual treatment as this was a research paper pending submission. 
+
+## Data Collection
+
+We employed 18 months of Bing Search data covering January 2017 to June 2018. We restricted queries to those in English language and from searchers in the United States.  We began our data selection by identifying women first and then identifying women went through treatment using self-reporting queries. We then collected the identified users' historical searches and place them in subcategories of interest using a generated list of key words informed by similar literature. We used these data to describe the differences between treatments. 
+
+Before analyzing the data, we used a third party who is not the researcher to use a scrubbing tool to remove any sensitive information revealed in the queries, including users' name, address, email, or other self-identifying information. We also used anonymous identifiers when aligning historical searches.
+
 
 ## Methods
 
-Secondary Research - My first step on this project was to understand what work has currently been done in this domain. Luckily, I discovered some useful employee culture surveys that outlined key employee behaviours along with their goals, wants, and needs from the company. I used this data to create archetypes which I will touch more on later.
+To describe how treatment-related searches from both the A and B groups changed over time, we plotted the proportion of treatment-related searches to all searches over the treatment period. 
 
-Remote Focus Groups - I worked with several business partners to reruit employees to participate in 1 hour focus group sessions. Focus groups were a great method to understand the experience as sometimes it can be difficult for an employee to recall certain aspects of their experience but being able to listen to others share their experience would help get their wheels to turning.
+Using treatment-related N-grams that are indicative of each week of treatment, we compared our results to those found in previous treatment related literature. 
 
-Bias - There is always the opportunity for bias when conducting focus groups, in terms of group thinking as well as the risk of the loudest person in the room dominating the conversation. I even considered the environment may not be best for those who are more introverted. 
+We removed the keywords we initially used to identify the B group to determine which words were relevant in predicting whether a user was in the B group. 
 
-Combatting Bias - To combat this, I hosted several focus group sessions. This way, I am able to get a diverse set of perspectives while also taking note of common themes that pop up across different sessions. To accomodate for those who are more introverted, I used the mural white boarding tool. This provided a space for those who were more introverted to share their experience via a post it note on the board. (Mural raw data screenshot)
-![Picture of Peek's home page](assets/images/Whiteboard_ATT.png)
-<figcaption class="caption">Using mural workspace</figcaption>
+We used standard approaches to comparing groups. We first took a matched sample using age and location and then compared the counts of various sets of predefined keywords discussed above using t-tests and information gain. We matched on age and location and the matched distributions can be found below.
 
-## Understanding Data
 
-Once the sessions were completed. I was tasked with turning all this feedback into actionable insights. I decided to first look at the volume of negative and postive feedback we heard to determine which areas of a career are more enjoyable or frustrating.
+![Picture of Peek's home page](assets/images/PropensityMatching.png)
+<figcaption class="caption">Propensity score matching using R</figcaption>
 
-I then performed a thematic analysis on the data to understand the why behind those enjoyable and frustrating areas.
+We then compare the two user groups using the matched sample and the resulting counts for each set of keywords by treatment type.
 
-## Journey Mapping
-
-The aggregation of this data was useful for creating an overall employee journey map that detailed the stages of an employee's journey along with the most meaningful moments.
-
-![Picture of Peek's home page](assets/images/Journey_Map _ATT.png)
-<figcaption class="caption">Journey Map</figcaption>
+For interpretability and dimensionality reduction, we generated clusters of queries and labeled the topic groups by hand. We then see when these groups peak for each treatment type.
 
 ## Results
 
-The results of this journey map launched two projects to improve the most painful stages of an employees career.
+We present results for each of the keywords subgroups for each treatment below. For each query group, we compare the overall counts by treatment and then we assess differences by individual N-grams. The results in table show whether the groups are statistically different on the amount of activity by trimester as well as shows differences in the most frequent N-grams.  We use both t-tests and information gain to show differences in the groups and both measures are presented below.
 
-## Archetypes & Next Steps
+![Picture of Peek's home page](assets/images/Ngrams.png)
+<figcaption class="caption">Frequency of N-grams</figcaption>
 
-Now that we discovered stages of frustration through the employee journey map, I used the survey data to create employee archetypes. (see below). The goal is to use these archetypes as we begin solving for the moments of frustration in they employee journey.
+We found an increase in treatment-related searches towards the beginning and end of treatment in general. We also determined that the B group issued more treatment-related searches than treatment A during the early and late stages.
 
-![Picture of Peek's home page](assets/images/Archetypes_ATT.png)
-<figcaption class="caption">Employee Archetypes</figcaption>
+For the A group, the results were similar to prior work. The B group searched frequently for terms relating to the beginning of treatment, but had very few searches for terms indicative of the end of treamtment. 
+
+This resulted in more negative treatment related words that explained the decrease in treatment-related searches towards the end of treatment.
+
+![Picture of Peek's home page](assets/images/PropSearches.jpg)
+<figcaption class="caption">Proportion of treatment related searches during pre, current, and post treatment</figcaption>
+
+## Future Work
+
+We hope our findings can help guide medical practitioners when caring for patients undergoing this treatment.

@@ -53,11 +53,13 @@ The aggregation of this data was useful for creating an overall employee journey
 
 ## Results
 
-The results of this journey map launched two projects to improve the most painful stages of an employees career.
+The results of this journey map launched two projects to improve the most painful stages of an employees career. The advantage of using the journey map is that all teams across the business can visualize the stage at which they can help improve the experience.
+
+We have established working teams across business units to collobrate and improve the experience.
 
 ## Archetypes & Next Steps
 
-Now that we discovered stages of frustration through the employee journey map, I used the survey data to create employee archetypes. (see below). The goal is to use these archetypes as we begin solving for the moments of frustration in they employee journey.
+Now that we discovered stages of frustration through the employee journey map, I used the survey data to create employee archetypes. The goal is to use these archetypes as we begin solving for the moments of frustration in they employee journey.
 
 ![Picture of Peek's home page](assets/images/Archetypes_ATT.png)
 <figcaption class="caption">Employee Archetypes</figcaption>

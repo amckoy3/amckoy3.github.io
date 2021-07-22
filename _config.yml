@@ -1,20 +1,19 @@
 # main text of home
-name: Osi Otugo
-bio: Product Manager
-
+name: Hi, I'm Ashley McKoy
+bio: I currently work as UX Researcher at AT&T. I have experience in qualitative & quantitative research and software development. I'm passionate about creating and working on software products that solve meaningful problems and are inclusive in their design.
 # twitter summary info
 description: A blog about technology and stuff related
 
 # if it's an external image, update below for true
 # better with square images
 external-image: false
-picture: assets/images/profile.jpg
+picture: assets/images/headshot4.png
 
 # If you want to include your resume, set to true
 # and specify source (external or local).
 resume: true
 resume-external: false
-resume-url: assets/docs/osi_otugo_resume.pdf
+resume-url: assets/docs/ashley_resume.pdf
 
 url: http://ositanachi.github.io
 # your url: http://USERNAME.github.io
@@ -36,14 +35,14 @@ disqus:
 
 # if you don't have any of social below, comment the line
 #facebook: myfacebook
-twitter: ositanachi
+#twitter: ositanachi
 # google: mygoogle
-instagram: ositanachi_
+#instagram: ositanachi_
 # pinterest: mypinterest
-linkedin: ositanachi
+linkedin: ashley-mckoy
 # youtube: myyoutube
 # spotify: myspotify
-github: ositanachi
+github: amckoy3
 # gitlab: mygitlab
 # lastfm: mylastfm
 # stackoverflow: 7044681/mystackoverflow
@@ -52,7 +51,7 @@ github: ositanachi
 #medium: medium
 # vimeo: myvimeo
 # lanyrd: mylanyrd
-#email: myemail@gmail.com
+email: mckoyashley1@gmail.com
 
 authors:
     ositanachi:
@@ -72,7 +71,7 @@ width: normal
 # paginate_path: "blog/:num/"
 
 # if you don't need portfolio, comment the *portfolio* configs below
-portfolio: true
+projects: true
 
 # if you don't need "about" or "blog", comment them out below
 about: true

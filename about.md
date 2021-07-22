@@ -5,7 +5,7 @@ layout: page
 ![Profile Image]({{ site.url }}/{{ site.picture }})
 <center>{% include social-links.html %}</center>
 
-<h2>Kedụ (hello)</h2>
+<h2>Stay in touch</h2>
 
 <p>I am Ositanachi Otugo ("Osi" for short). I am American born, Nigerian made—a middle child between two extremely talented women whom I enjoyed sharing my childhood with. I currently reside in Prince George’s County, Maryland and serve as a freelance UX researcher for two amazing projects, Peek and Truckr. When I'm not interviewing users you can find me adding skills to my utility belt, lifting weights, or stuffing my face with jollof rice. Want to collaborate on a project? Click one of those social media icons above; I'd love to hear from you.
 </p>
