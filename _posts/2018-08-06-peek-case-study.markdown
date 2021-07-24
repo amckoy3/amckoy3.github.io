@@ -17,7 +17,7 @@ Note: Some information has been removed for confindentiality reasons.
 ## Background
 
 Currently, the employee experience at AT&T is owned by multiple stakeholders within the company, each working on their own projects, having unique perspectives on the current state of the employee experience. This
-resulted in duplication of work, launching of problems that aren't really solving employee problems, and
+resulted in duplication of work, launching of projects that aren't really solving employee problems, and
 additonal cost to the business.
 
 
