@@ -17,18 +17,18 @@ Note: Some information has been removed for confindentiality reasons. This resea
 
 ## Background
 
-The internet is ubiquitously used by people to seek information throughout the course of their daily activities, primarily through queries entered on search engines. The internet also provides both a means for people to document their lives and a support system through various platforms that include Twitter, online forums, and other social media sites, allowing people to feel connected to the world. We found that women in particular, are more likely to use search engines over social media posts to find answers about issues that bear social stigma such as certain medical conditions. This makes search data a particularly rich resource for gaining information about what people, and women in particular, think about during the course of their daily lives.
+The internet is ubiquitously used by people to seek information throughout the course of their daily activities, primarily through queries entered on search engines. The internet also provides both a means for people to document their lives and a support system through various platforms that include Twitter, online forums, and other social media sites, allowing people to feel connected to the world. In fact, women in particular, are more likely to use search engines over social media posts to find answers about issues that bear social stigma such as certain medical conditions (Choudhurry, 2014). This makes search data a particularly rich resource for gaining information about what people, and women in particular, think about during the course of their daily lives.
 
 
 ## Goal
 
 We wanted to understand how the information needs of women experiencing certain health conditions change over time by analyzing granular behavioral data. Using such data allows us to discover the information needs of women that may not be shared with their doctors or friends. We attempt to learn whether the medications, conditions and worries that  women have over the course of a treatment are reflected in their online searches.  In particular, we aim to discover whether women who undergo medical treatment B are  different in terms of their behavior and information needs than those who undergo medical treatment A -- are they more stressed, do they worry more, shop less, etc.? 
 
-Note: This research project was approved by the IRB. Medical treatment A (controlled), Medical treatment B (experiemental) are used to substitute the actual treatment as this was a research paper pending submission. 
+Note: This research project was approved by the IRB. Throughout this project I will refer to medical treatment A as the controlled group and medical treatment B as the experiemental. 
 
 ## Data Collection
 
-We employed 18 months of Bing Search data covering January 2017 to June 2018. We restricted queries to those in English language and from searchers in the United States.  We began our data selection by identifying women first and then identifying women went through treatment using self-reporting queries. We then collected the identified users' historical searches and place them in subcategories of interest using a generated list of key words informed by similar literature. We used these data to describe the differences between treatments. 
+We employed 18 months of search data covering January 2017 to June 2018. We restricted queries to those in English language and from searchers in the United States.  We began our data selection by identifying women first and then identifying women who went through treatment using self-reporting queries. We then collected the identified users' historical searches and placed them in subcategories of interest using a generated list of key words informed by similar literature. We used these data to describe the differences between treatments. 
 
 Before analyzing the data, we used a third party who is not the researcher to use a scrubbing tool to remove any sensitive information revealed in the queries, including users' name, address, email, or other self-identifying information. We also used anonymous identifiers when aligning historical searches.
 
@@ -53,7 +53,7 @@ For interpretability and dimensionality reduction, we generated clusters of quer
 
 ## Results
 
-We present results for each of the keywords subgroups for each treatment below. For each query group, we compare the overall counts by treatment and then we assess differences by individual N-grams. The results in table show whether the groups are statistically different on the amount of activity by trimester as well as shows differences in the most frequent N-grams.  We use both t-tests and information gain to show differences in the groups and both measures are presented below.
+We present results for each of the keywords subgroups for each treatment below. For each query group, we compare the overall counts by treatment and then we assess differences by individual N-grams. The results in table show whether the groups are statistically different on the amount of activity by phase as well as shows differences in the most frequent N-grams.  We use both t-tests and information gain to show differences in the groups and both measures are presented below.
 
 ![Picture of Peek's home page](assets/images/Ngrams.png)
 <figcaption class="caption">Frequency of N-grams</figcaption>
@@ -67,6 +67,5 @@ This resulted in more negative treatment related words that explained the decrea
 ![Picture of Peek's home page](assets/images/PropSearches.jpg)
 <figcaption class="caption">Proportion of treatment related searches during pre, current, and post treatment</figcaption>
 
-## Future Work
-
-We hope our findings can help guide medical practitioners when caring for patients undergoing this treatment.
+## Resources
+De Choudhury, Munmun and Morris, Meredith Ringel and White, Ryen W. Seeking and sharing health information online: comparing search engines and social media. Proceedings of the SIGCHI conference on human factors in computing systems. 1365--1376. 2014. ACM

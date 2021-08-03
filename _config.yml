@@ -1,13 +1,13 @@
 # main text of home
 name: Hi, I'm Ashley McKoy
-bio: I currently work as UX Researcher at AT&T. I have experience in qualitative & quantitative research and software development. I'm passionate about creating and working on software products that solve meaningful problems and are inclusive in their design.
+bio: I currently work as UX Researcher at AT&T. I have experience in qualitative and quantitative research as well as software development. I'm passionate about creating and working on software products that solve meaningful problems and are inclusive in their design.
 # twitter summary info
 description: A blog about technology and stuff related
 
 # if it's an external image, update below for true
 # better with square images
 external-image: false
-picture: assets/images/Ashley7.png
+picture: assets/images/Test1.png
 
 # If you want to include your resume, set to true
 # and specify source (external or local).
