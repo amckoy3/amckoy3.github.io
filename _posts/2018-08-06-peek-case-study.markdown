@@ -30,7 +30,7 @@ and non-management employee's experience. The goal was to holistically understan
 
 Secondary Research - My first step was to understand what work has currently been done in this domain. Luckily, I discovered some useful employee culture surveys that outlined key employee behaviours along with their goals, wants, and needs. I used this data to create archetypes which I will touch more on later.
 
-Remote Focus Groups - I worked with several business partners to reruit employees to participate in 1 hour focus group sessions. Focus groups were a great method to understand the experience while also combating recall bias. Sometimes, it can be difficult for an employee to recall certain aspects of their experience but being able to listen to others share their experience would help get their wheels turning.
+Remote Focus Groups - I worked with several business partners to recruit employees to participate in 1 hour focus group sessions. Focus groups were a great method to understand the experience while also combating recall bias. Sometimes, it can be difficult for an employee to recall certain aspects of their experience but being able to listen to others share their experience would help get their wheels turning.
 
 Bias - There is always the opportunity for bias when conducting focus groups, in terms of group thinking as well as the risk of the loudest person in the room dominating the conversation. I even considered the environment may not be best for those who are more introverted. 
 
@@ -59,7 +59,7 @@ We have established working teams across business units to collaborate and impro
 
 ## Archetypes & Next Steps
 
-Now that we discovered stages of frustration through the employee journey map, I used the survey data to create employee archetypes. The goal is to use these archetypes as we begin solving for the moments of frustration in they employee journey.
+Now that we've discovered stages of frustration through the employee journey map, I used the survey data to create employee archetypes. The goal is to use these archetypes as we begin solving for the moments of frustration in the employee journey.
 
 ![Picture of Peek's home page](assets/images/Archetypes_ATT.png)
 <figcaption class="caption">Employee Archetypes</figcaption>
