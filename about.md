@@ -9,4 +9,4 @@ layout: page
 
 <h2>Resume</h2>
 <ul>
-	<li><a href="/assets/docs/ashley_resume.pdf">PDF</a>, 48kb
+	<li><a href="/assets/docs/ashley_resume_updated.pdf">PDF</a>, 48kb
