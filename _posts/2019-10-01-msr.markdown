@@ -17,28 +17,28 @@ Note: Some information has been removed for confindentiality reasons. This resea
 
 ## Background
 
-The internet is ubiquitously used by people to seek information throughout the course of their daily activities, primarily through queries entered on search engines. The internet also provides both a means for people to document their lives and a support system through various platforms that include Twitter, online forums, and other social media sites, allowing people to feel connected to the world. In fact, women in particular, are more likely to use search engines over social media posts to find answers about issues that bear social stigma such as certain  conditions (Choudhurry, 2014). This makes search data a particularly rich resource for gaining information about what people, and women in particular, think about during the course of their daily lives.
+The internet is ubiquitously used by people to seek information throughout the course of their daily activities, primarily through queries entered on search engines. The internet also provides both a means for people to document their lives and serve as a support system through various platforms such as Twitter, online forums, and other social media sites, allowing people to feel connected to the world. In fact, women in particular, are more likely to use search engines over social media posts to find answers about issues that bear social stigma (Choudhurry, 2014). This makes search data a particularly rich resource for gaining information about what people, and women in particular, think about during the course of their daily lives.
 
 
 ## Goal
 
 Note: This research project was approved by the IRB. Throughout this project I will refer to treatment A as the controlled group and treatment B as the experiemental.
 
-We wanted to understand how the information needs of women experiencing certain health conditions change over time by analyzing granular behavioral data. We attempt to learn whether the medications, conditions and worries that  women have over the course of a treatment are reflected in their online searches.  In particular, we aim to discover whether women who undergo treatment B are  different in terms of their behavior and information needs than those who undergo treatment A -- are they more stressed, do they worry more, shop less, etc.? 
+We wanted to understand how the information needs of women experiencing certain health conditions change over time by analyzing granular behavioral data. We attempted to learn whether the medications, conditions and worries that  women have over the course of a treatment are reflected in their online searches.  In particular, we aim to discover whether women who undergo treatment B are  different in terms of their behavior and information needs than those who undergo treatment A -- are they more stressed, do they worry more, shop less, etc.? 
  
 
 ## Data Collection
 
 Before analyzing the data, we used a third party who is not the researcher to use a scrubbing tool to remove any sensitive information revealed in the queries, including users' name, address, email, or other self-identifying information. We also used anonymous identifiers when aligning historical searches.
 
-We employed 18 months of search data covering January 2017 to June 2018. We restricted queries to those in English language and from searchers in the United States.  We began our data selection by identifying women first and then identifying women who went through treatment using self-reporting queries. We then collected the identified users' historical searches and placed them in subcategories of interest using a generated list of key words informed by similar literature. We used these data to describe the differences between treatments. 
+I employed 18 months of search data covering January 2017 to June 2018. The queries were restricted to those in English language and from searchers in the United States.  Data selection was sourced by identifying women first and then identifying women who went through treatment B using self-reporting queries. I then collected the identified users' historical searches and placed them in subcategories of interest using a generated list of key words informed by similar literature. This data was used to describe the differences between treatments. 
 
 
 ## Methods
 
 To describe how treatment-related searches from both the A and B groups changed over time, we plotted the proportion of treatment-related searches to all searches over the treatment period. 
 
-Using treatment-related N-grams that are indicative of each week of treatment, we compared our results to those found in previous treatment related literature. 
+Using treatment-related phrases that are indicative of each week of treatment, we compared our results to those found in previous treatment related literature. 
 
 We removed the keywords we initially used to identify the B group to determine which words were relevant in predicting whether a user was in the B group. 
 
@@ -52,21 +52,21 @@ We then compare the two user groups using the matched sample and the resulting c
 
 For interpretability and dimensionality reduction, we generated clusters of queries and labeled the topic groups by hand. We then see when these groups peak for each treatment type.
 
+![Picture of Peek's home page](assets/images/Ngrams.png)
+<figcaption class="caption">Frequency of N-grams. Blue = Treatment A, Orange = Treatment B </figcaption>
+
 ## Results
 
-We present results for each of the keywords subgroups for each treatment below. For each query group, we compare the overall counts by treatment and then we assess differences by individual N-grams. The results in the table show whether the groups are statistically different on the amount of activity by phase as well as shows differences in the most frequent N-grams.  We use both t-tests and information gain to show differences in the groups and both measures are presented below.
+When we compare the overall counts by treatment and assess differences by individual phrases, we can show whether the groups are statistically different on the amount of activity by phase as well as show differences in the most frequent phrases.  
 
-![Picture of Peek's home page](assets/images/Ngrams.png)
-<figcaption class="caption">Frequency of N-grams</figcaption>
+![Picture of Peek's home page](assets/images/PropSearches.jpg)
+<figcaption class="caption">Proportion of treatment related searches during pre, current, and post treatment</figcaption>
 
-We found an increase in treatment-related searches towards the beginning and end of treatment in general. We also determined that the B group issued more treatment-related searches than treatment A during the early and late stages.
+We found an increase in treatment-related searches towards the beginning and end of treatment in general. We also determined that the B group issued more treatment-related searches than treatment A during the early stage of treatment and less during the late stages.
 
 For the A group, the results were similar to prior work. The B group searched frequently for terms relating to the beginning of treatment, but had very few searches for terms indicative of the end of treamtment. 
 
 This resulted in more negative treatment related words that explained the decrease in treatment-related searches towards the end of treatment.
-
-![Picture of Peek's home page](assets/images/PropSearches.jpg)
-<figcaption class="caption">Proportion of treatment related searches during pre, current, and post treatment</figcaption>
 
 ## Resources
 De Choudhury, Munmun and Morris, Meredith Ringel and White, Ryen W. Seeking and sharing health information online: comparing search engines and social media. Proceedings of the SIGCHI conference on human factors in computing systems. 1365--1376. 2014. ACM
