@@ -9,7 +9,7 @@ tag:
 - diary study
 projects: true
 author: Ashley McKoy
-description: "A peek inside the case study I am working on for Peek"
+description: " "
 permalink: womens-health
 ---
 
